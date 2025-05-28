@@ -1,0 +1,251 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+.heading{
+    background-color: cornsilk;
+    padding: 5% 15%;
+}
+.subheading{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.text{
+    font-size: 1.5rem;
+}
+.img{
+    border-radius: 10px; 
+    width: 350px; 
+    height: 400px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.options{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: beige;
+    width: 300px;
+    border: solid black;
+}
+.round{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: solid white;
+}
+.sec-heading{
+    padding: 5% 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.second-heading{
+    padding: 5% 15% 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+li{
+    line-height: 30px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.main{
+    padding: 5% 15% 0 15%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+.third-heading{
+    padding: 5%;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 5px;
+}
+.number{
+    border-radius: 5px;
+    padding: 5px;
+    border: solid black;
+    width: 30px;
+}
+.membership{
+    padding: 5% 15% 8% 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.plans{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 100%;
+}
+.starter{
+    border-radius: 20px;
+    background-color: ghostwhite;
+    padding: 35px;
+    width: 30%;
+}
+.option{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: beige;
+    width: 200px;
+    border: solid black;
+    text-align: center; 
+}
+.pro{
+   border-radius: 20px;
+    background-color: cornsilk;
+    padding: 35px;
+    width: 30%;
+}
+.coding{
+    font-size: 2.5rem; 
+    text-align: center; 
+    font-family: arial Narrow;
+}
+.footer{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .subheading{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    }
+    .heading{
+    padding: 5%;
+    }
+    .text{
+        font-size: 1rem;
+    }
+    .img{
+    border-radius: 10px; 
+    width: 440px; 
+    height: 500px;
+    }
+    .second-heading{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; 
+    }
+   .sec-heading{
+    padding: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    }
+    .grid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.25rem;
+    }
+    .number{
+        margin-bottom: 20px;
+    }
+    .main{
+    padding: 5%;
+    }
+    h2{
+    font-size: 2.25rem;
+    }
+    .plans{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    }
+    .membership{
+    padding: 5%;
+    gap: 50px;
+    }
+    .starter{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    }
+    .third-heading{
+    padding: 5%;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 5px;
+    }
+    .pro{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 20px;
+    }
+    .option{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: beige;
+    width: 180px;
+    border: solid black;
+    text-align: center; 
+    font-size: .75rem;
+    }
+    li{
+    line-height: 20px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    }
+    .coding{
+    font-size: 2rem; 
+    text-align: left; 
+    font-family: arial Narrow;
+    }
+    .ready{
+        text-align: center;
+    }
+    .footer{
+        padding: 50px 20px;
+        border-radius: 15px;
+    }
+
+    
+}
