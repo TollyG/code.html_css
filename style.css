@@ -146,6 +146,9 @@ li{
 }
 
 @media screen and (max-width: 900px) {
+    body{
+        max-width: 100%;
+    }
     .subheading{
     display: flex;
     flex-direction: column;
@@ -159,8 +162,11 @@ li{
     }
     .img{
     border-radius: 10px; 
-    width: 550px; 
+    width: 450px; 
     height: 500px;
+    }
+    #img{
+        max-width: 100%;
     }
     .second-heading{
     padding: 5%;
