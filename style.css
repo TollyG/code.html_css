@@ -30,7 +30,7 @@ h2{
 }
 .img{
     border-radius: 10px; 
-    width: 350px; 
+    width: 400px; 
     height: 400px;
 }
 .flex{
@@ -162,8 +162,8 @@ li{
     }
     .img{
     border-radius: 10px; 
-    width: 450px; 
-    height: 500px;
+    width: 500px; 
+    height: 430px;
     }
     #img{
         max-width: 100%;
